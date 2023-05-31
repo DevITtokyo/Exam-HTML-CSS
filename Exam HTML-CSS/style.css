@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Readex Pro, sans-serif;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 840px;
+    background-color: #000;
+}
+header {
+    width: 1170px;
+    height: 107px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 135px;
+    top: 0;
+}
+header img {
+    width: 103px;
+    height: 18px;
+}
+nav {
+    width: 221px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 40px;
+    margin: 44px 40px auto 667px;
+}
+a {
+    width: 47px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.92);
+}
+header button {
+    width: 138px;
+    height: 43px;
+    text-align: center;
+    padding: 12px 24px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 56px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFD600;
+}
+.liner {
+    width: 1170px;
+    height: 0;
+    position: absolute;
+    left: 135px;
+    top: 108px;
+    border: 2px solid rgba(255, 255, 255, 0.06);
+}
+ 
+
+.main {
+    width: 1140px;
+    height: 720px;
+    display: flex;
+}
+/* CSS nội dung chính bên trái */
+
+.main_left {
+    width: 610px;
+    height: auto;
+    position: absolute;
+    top: 222px;
+    left: 135px;
+}
+h2 {
+    width: 570px;
+    height: 194px;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 97px;
+    color: #fff;
+    margin-bottom: 24px;
+    
+}
+.main_left p {
+    width: auto;
+    height: 71px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 48px;
+}
+.main_left button:nth-child(3), .main_left button:nth-child(4) {
+    width: 277px;
+    height: 62px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 20px;
+}
+.main_left button:nth-child(3) {
+    background: #FFD600;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+.main_left button:nth-child(4) {
+    background: rgba(255, 255, 255, 0.08);
+    color: #FFD600;
+    margin-left: 16px;
+}
+
+/* CSS phần bên phải */
+.main_right {
+    position: absolute;
+    left: 835px;
+    top: 168px;
+    width: 469px;
+    height: 504px;
+
+}
+
